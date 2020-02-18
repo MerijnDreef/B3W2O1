@@ -1,43 +1,68 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 body{
     margin:0 auto;
-    width:600px;
+    width:750px;
     background-color:rgb(63, 63, 63);
 }
 a{
     text-decoration:none;
-    color:rgb(255, 247, 226);
+    color:rgb(231, 229, 229);
     font-size:20px;
     font-weight:200;
 }
 .menu{
     background-color:#AB2513;
+    padding:8px 0px;
 }
 .menu>li{
     margin-left:20px;
     display:inline;
 }
 .backgroundForm{
+    width:750px;
     background-color:rgb(172, 161, 161);
 }
 .textPlace{
-    text-align:center;
     margin-top:5px;
-    margin-bottom:3px;
+    margin-bottom:5px;
     margin-left:20px;
 }
-input{
-    width:30%;
+#mainForm>input {
+    width: 40%;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 0;
+}
+#mainForm>label {
+    width: 45%;
+    display: inline-block;
+    padding-left: 0;
 }
 #submit{
-    padding:2px 0px;
-    width:12%;
-    margin-left:50%;
+    padding:2px;
+    width:10%;
+    margin-left:50.9%;
+    margin-bottom:10px;
 }
-h1{
+#keuzeh1{
     padding-top:10px;
     margin-left:20px;
+}
+#logo{
+    font-family: 'Lacquer', sans-serif;
+    text-align:center;
+    color:rgb(231, 229, 229);
+    font-size:100px;
+    margin-bottom:20px;
+}
+#footer{
+    text-align:center;
+    width:750px;
+    line-height:30px;
+    color:rgb(231, 229, 229);
+    background-color:rgb(94, 89, 89);
 }
