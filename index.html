@@ -3,17 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="opdracht.css">
+    <link rel="stylesheet" type="text/css" href="opdracht.css">
     <title>Er heerst paniek...?</title>
 </head>
 <body>
-    <a href="index.html">Er heerst paniek...</a>
-    <a href="onkunde.html">Onkunde</a>
-    <form action="antwoord.php" method="post">
-        <label for=""></label>
-        <input>
-
-
-    </form>
+    <ul class="menu">
+        <li><a href="index.html">Er heerst paniek...</a></li>
+        <li><a href="onkunde.html">Onkunde</a></li>
+    </ul>
+    <div class="backgroundForm">
+        <h1>Er heerst paniek...</h1>
+        <form action="antwoord.php" method="post">
+            <label class="textPlace" for="vraag1">Welk dier zou je nooit als huisdier willen hebben?</label>
+            <input class="textPlace" type="text" id="vraag1" name="vraag1"><br>
+            <label class="textPlace" for="vraag2">Wie is de belangrijkste persoon in je leven?</label>
+            <input class="textPlace" type="text" id="vraag2" name="vraag2"><br>
+            <label class="textPlace" for="vraag3">In welk land zou je graag willen wonen?</label>
+            <input class="textPlace" type="text" id="vraag3" name="vraag3"><br>
+            <label class="textPlace" for="vraag4">Wat doe je als je je verveelt?</label>
+            <input class="textPlace" type="text" id="vraag4" name="vraag4"><br>
+            <label class="textPlace" for="vraag5">Met welk speelgoed speelde je als kind het meest?</label>
+            <input class="textPlace" type="text" id="vraag5" name="vraag5"><br>
+            <label class="textPlace" for="vraag6">Bij welke docent spijbel je het liefst?</label>
+            <input class="textPlace" type="text" id="vraag6" name="vraag6"><br>
+            <label class="textPlace" for="vraag7">Als je &euro; 100.000,-had, wat zou je dan kopen?</label>
+            <input class="textPlace" type="text" id="vraag7" name="vraag7"><br>
+            <label class="textPlace" for="vraag8">Wat is je favoriete bezigheid?</label>
+            <input class="textPlace" type="text" id="vraag8" name="vraag8"><br>
+            <input class="textPlace" id="submit" type="submit" value="versturen">
+        </form>
+    </div>
 </body>
 </html>

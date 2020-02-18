@@ -3,5 +3,41 @@
     padding:0;
 }
 body{
-    background-color:grey;
+    margin:0 auto;
+    width:600px;
+    background-color:rgb(63, 63, 63);
+}
+a{
+    text-decoration:none;
+    color:rgb(255, 247, 226);
+    font-size:20px;
+    font-weight:200;
+}
+.menu{
+    background-color:#AB2513;
+}
+.menu>li{
+    margin-left:20px;
+    display:inline;
+}
+.backgroundForm{
+    background-color:rgb(172, 161, 161);
+}
+.textPlace{
+    text-align:center;
+    margin-top:5px;
+    margin-bottom:3px;
+    margin-left:20px;
+}
+input{
+    width:30%;
+}
+#submit{
+    padding:2px 0px;
+    width:12%;
+    margin-left:50%;
+}
+h1{
+    padding-top:10px;
+    margin-left:20px;
 }
