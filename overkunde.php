@@ -19,7 +19,8 @@
     </ul>
     <div class="backgroundForm">
         <h1 id="keuzeh1">Onkunde</h1>
-        <p>Er zijn veel mensen die niet kunnen <?=$_POST['vraag1']?>. Neem nou <?=$_POST['vraag2']?>. Zelfs met de hulp van een <?=$_POST['vraag4']?> of zelfs <?=$_POST['vraag3']?> kan <?=$_POST['vraag2']?> niet <?=$_POST['vraag1']?>. Daar heeft niet te maken met een gebrek aan <?=$_POST['vraag5']?>, maar met een te veel aan <?=$_POST['vraag6']?>. Te veel <?=$_POST['vraag6']?> leidt tot <?=$_POST['vraag7']?> en dat is niet goed als je wilt <?=$_POST['vraag1']?>. Helaas voor <?=$_POST['vraag2']?>.</p>
+        <br>
+        <p class="textResult">Er zijn veel mensen die niet kunnen <?=$_SESSION['vraag1']?>. Neem nou <?=$_SESSION['vraag2']?>. Zelfs met de hulp van een <?=$_SESSION['vraag4']?> of zelfs <?=$_SESSION['vraag3']?> kan <?=$_SESSION['vraag2']?> niet <?=$_SESSION['vraag1']?>. Daar heeft niet te maken met een gebrek aan <?=$_SESSION['vraag5']?>, maar met een te veel aan <?=$_SESSION['vraag6']?>. Te veel <?=$_SESSION['vraag6']?> leidt tot <?=$_SESSION['vraag7']?> en dat is niet goed als je wilt <?=$_SESSION['vraag1']?>. Helaas voor <?=$_SESSION['vraag2']?>.</p><br>
     </div>
     <p id="footer">Deze website is gemaakt door &copy; Merijn Dreef, 2020</p>
 </body>
